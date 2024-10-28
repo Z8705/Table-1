@@ -1,0 +1,37 @@
+table {
+    width: 600px;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    background-color: #FFC107;
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+tr:first-child th:nth-child(2) {
+    background-color: #d3a007;; 
+    color: black; 
+}
+
+tr {
+    border-bottom: 2px solid #FFC107;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    color: white;
+    background-color: #2C2D6C;
+    text-align: left;
+    font-size: 1em;
+}
+
+th, td {
+    border:2px solid #FFC107;
+}
